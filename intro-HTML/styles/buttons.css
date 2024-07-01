@@ -1,0 +1,61 @@
+.first{
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    background-color:red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.20s;
+    margin-right: 10px;
+}
+.first:hover{
+    opacity: 0.5;
+}
+.first:active{
+    opacity: 0.3;
+}
+ .second{
+    background-color:rgb(255, 255, 255);
+    color: rgb(127, 203, 225);
+    border-color: rgb(4, 33, 255);
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition:background-color 0.50s , color 1s ;
+    margin-right: 10px;
+ } 
+ .second:hover{
+    background-color:rgb(4, 33, 255);
+    color:rgb(255, 255, 255);
+ }
+ .second:active{
+    opacity: 0.3;
+ }
+
+ .third{
+    
+    background-color:rgb(67, 55, 233);
+    color: rgb(255, 255, 255);
+    border:n;
+    border-style: solid;
+    border-width: 1px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 35px;
+    font-style: timesromen;
+    cursor: pointer;
+    transition: box-shadow 1s;
+ }
+ .third:hover{
+    box-shadow: 5px 5px 5px rgba(0,0,0,1) ;
+ }
